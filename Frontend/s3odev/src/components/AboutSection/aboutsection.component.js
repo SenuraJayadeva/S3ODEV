@@ -11,15 +11,18 @@ export default function AboutSection() {
             <h2>About Company</h2>
             <br />
             <h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            We are a Tech-Startup based in Sri Lanka comprising of young Tech-Enthusiasts with amazing skills. 
+            Our motivation and passion is driven at the sight of our satisfied customers, and on how much of an impact we can make to make this world a better place,
+             as we are the generation that is just stepping in to the drivers' seat.
+
+            
             </h4>
 
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            We custom-tailor solutions to improve the productivity and efficiency of your business so that you can give both your clients and employees a better experience.
+
+We can help you build an online presence for your business with a website, or even help you reach more customers with a mobile application,
+ or even help you to make your business process more efficient with our solutions.
             </p>
             <br />
             <button class="btn btn-primary btn-lg">Get in Touch</button>
