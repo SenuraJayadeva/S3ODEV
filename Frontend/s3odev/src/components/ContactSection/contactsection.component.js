@@ -53,7 +53,7 @@ export default function Contactsection() {
             <br />
             <div class="row">
               <div class="col-sm-12 form-group">
-                <button class="btn btn-primary pull-right" type="submit" stye={{width:"10px"}}>
+                <button class="btn btn-primary pull-right" type="submit">
                   Send
                 </button>
               </div>

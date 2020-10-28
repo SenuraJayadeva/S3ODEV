@@ -15,7 +15,7 @@ export default function Services() {
           </div>
           <div class="col-sm-4">
             <span class="glyphicon glyphicon-heart logo-small"></span>
-            <h4>LOVE</h4>
+            <h4>QUALITY</h4>
             <p>Lorem ipsum dolor sit amet..</p>
           </div>
           <div class="col-sm-4">
@@ -29,7 +29,7 @@ export default function Services() {
         <div class="row slideanim">
           <div class="col-sm-4">
             <span class="glyphicon glyphicon-leaf logo-small"></span>
-            <h4>GREEN</h4>
+            <h4>TRUST</h4>
             <p>Lorem ipsum dolor sit amet..</p>
           </div>
           <div class="col-sm-4">
