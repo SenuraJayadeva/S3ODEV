@@ -10,14 +10,14 @@ export default function Contactsection() {
           <div class="col-sm-5">
             <p>Contact us and we'll get back to you within 24 hours.</p>
             <p>
-              <span class="glyphicon glyphicon-map-marker"></span> Chicago, US
+              <span class="glyphicon glyphicon-map-marker"></span> Maharagama , Sri Lanka
             </p>
             <p>
-              <span class="glyphicon glyphicon-phone"></span> +00 1515151515
+              <span class="glyphicon glyphicon-phone"></span> +94 715787181 / +94 779142664
             </p>
             <p>
               <span class="glyphicon glyphicon-envelope"></span>{" "}
-              myemail@something.com
+              s3odevelopers@gmail.com
             </p>
           </div>
           <div class="col-sm-7 slideanim">
@@ -53,7 +53,7 @@ export default function Contactsection() {
             <br />
             <div class="row">
               <div class="col-sm-12 form-group">
-                <button class="btn btn-default pull-right" type="submit">
+                <button class="btn btn-primary pull-right" type="submit" stye={{width:"10px"}}>
                   Send
                 </button>
               </div>
