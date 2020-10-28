@@ -2,9 +2,13 @@ import React from "react";
 
 export default function Contactsection() {
   return (
-    <div style={{ marginTop: "5%" }} id="contact" class="container-fluid">
+    <div
+      style={{ marginTop: "5%" }}
+      id="contact"
+      class="container-fluid text-center bg-grey"
+    >
       {/* <!-- Container (Contact Section) --> */}
-      <div id="contact" class="container-fluid bg-grey">
+      <div>
         <h2 class="text-center">CONTACT</h2>
         <div class="row">
           <div class="col-sm-5">

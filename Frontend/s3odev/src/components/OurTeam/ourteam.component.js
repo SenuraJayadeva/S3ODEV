@@ -13,7 +13,7 @@ export default function Ourteam() {
       <div className="container" style={{ marginTop: "5%" }}>
         <h2 className="text-center">OUR TEAM</h2>
         <div className="row">
-          <div className="col-md-3">
+          <div className="col-md-3 socialcol">
             <center>
               <div className="card socialicon">
                 <img
@@ -31,7 +31,7 @@ export default function Ourteam() {
             </center>
           </div>
 
-          <div className="col-md-3">
+          <div className="col-md-3 socialcol">
             <center>
               <div className="card socialicon">
                 <img
@@ -49,7 +49,7 @@ export default function Ourteam() {
             </center>
           </div>
 
-          <div className="col-md-3">
+          <div className="col-md-3 socialcol">
             <center>
               <div className="card socialicon">
                 <img
@@ -66,7 +66,7 @@ export default function Ourteam() {
               </div>
             </center>
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 socialcol">
             <center>
               <div className="card socialicon">
                 <img
