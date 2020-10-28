@@ -17,22 +17,13 @@ export default function Ourvalue() {
             <h2>Our Values</h2>
             <br />
             <h4>
-              <strong>MISSION:</strong> Our mission lorem ipsum dolor sit amet,
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat.
+              <strong>MISSION:</strong> 
+              Provide low-cost premium solutions for businesses to build their online presence and to improve their workflow.
             </h4>
             <br />
             <p>
-              <strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-              laboris nisi ut aliquip ex ea commodo consequat.
+              <strong>VISION:</strong> Connect everyone to solutions that increase productivity and efficiency, 
+              through innovative solutions.
             </p>
           </div>
         </div>
