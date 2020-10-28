@@ -8,46 +8,49 @@ export default function Ourproducts() {
         <br />
         <h4>What we have created</h4>
         <div class="row text-center slideanim">
-          <div class="col-sm-4" style={{ padding: "10px" }}>
+          <div
+            class="col-sm-4"
+            style={{ padding: "10px", borderRadius: "20px" }}
+          >
             <div class="thumbnail" style={{ padding: "10px" }}>
               <img
                 src="https://jumbotron-production-f.squarecdn.com/assets/2194c707b541ede89e40.jpg"
                 alt="Paris"
-                width="300"
-                height="300"
+                style={{ width: "300px", height: "300px" }}
               />
               <p>
-                <strong>Paris</strong>
+                <strong>Web Applications</strong>
               </p>
-              <p>Yes, we built Paris</p>
             </div>
           </div>
-          <div class="col-sm-4" style={{ padding: "10px" }}>
+          <div
+            class="col-sm-4"
+            style={{ padding: "10px", borderRadius: "20px" }}
+          >
             <div class="thumbnail" style={{ padding: "10px" }}>
               <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTYRtQntpxPaeTfcSub4WMc0DCjie0PsI_5uQ&usqp=CAU"
+                src="https://www.gurutva.org/wp-content/uploads/2019/12/Top-Mobile-Application-Development-Company.webp"
                 alt="New York"
-                width="300"
-                height="300"
+                style={{ width: "300px", height: "300px" }}
               />
               <p>
-                <strong>New York</strong>
+                <strong>Mobile Appications</strong>
               </p>
-              <p>We built New York</p>
             </div>
           </div>
-          <div class="col-sm-4" style={{ padding: "10px" }}>
+          <div
+            class="col-sm-4"
+            style={{ padding: "10px", borderRadius: "20px" }}
+          >
             <div class="thumbnail" style={{ padding: "10px" }}>
               <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSwsue0jANw5e2fK3Es7NWokV_AiIB_KaomnA&usqp=CAU"
+                src="https://lh3.googleusercontent.com/proxy/QBgusZ3Yhwpem4wD491xQf62Gd1lEKLJw76blkXCjtlXwtvZrwRb-6dYxFjmq2IQGg_tQ9SQDOtuxGEwsyALuqs63VumebkyhdAn48j5Vxv6GWdbs-Ccsj1HTEjiF7pb"
                 alt="San Francisco"
-                width="300"
-                height="300"
+                style={{ width: "300px", height: "300px" }}
               />
               <p>
-                <strong>San Francisco</strong>
+                <strong>Desktop Applications</strong>
               </p>
-              <p>Yes, San Fran is ours</p>
             </div>
           </div>
         </div>
