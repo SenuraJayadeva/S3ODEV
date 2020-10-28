@@ -70,6 +70,7 @@ export default function MainComponent() {
       <div>
         <Ourteam />
       </div>
+
       <div>
         <Contactsection />
       </div>
