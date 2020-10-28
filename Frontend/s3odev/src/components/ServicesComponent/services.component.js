@@ -9,7 +9,13 @@ export default function Services() {
         <h2>SERVICES</h2>
         <h4>What we offer</h4>
         <br />
-        <div class="row slideanim">
+        <div
+          class="row slideanim"
+          data-aos="fade-up"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+        >
           <div class="col-sm-4 servicescol">
             <span class="glyphicon glyphicon-off logo-small"></span>
             <h4>POWER</h4>
@@ -28,7 +34,13 @@ export default function Services() {
         </div>
         <br />
         <br />
-        <div class="row slideanim">
+        <div
+          class="row slideanim"
+          data-aos="fade-up"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+        >
           <div class="col-sm-4 servicescol">
             <span class="glyphicon glyphicon-leaf logo-small"></span>
             <h4>TRUST</h4>

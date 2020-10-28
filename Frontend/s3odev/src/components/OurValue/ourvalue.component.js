@@ -6,7 +6,12 @@ export default function Ourvalue() {
       <div class="container-fluid bg-grey">
         <div class="row">
           <div class="col-sm-4">
-            <span class="glyphicon glyphicon-globe logo slideanim"></span>
+            <span
+              class="glyphicon glyphicon-globe logo slideanim"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos="zoom-out-right"
+            ></span>
           </div>
           <div class="col-sm-8">
             <h2>Our Values</h2>
