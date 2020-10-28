@@ -14,7 +14,7 @@ export default function Ourproducts() {
           >
             <div class="thumbnail" style={{ padding: "10px" }}>
               <img
-                src="https://jumbotron-production-f.squarecdn.com/assets/2194c707b541ede89e40.jpg"
+                src="https://mml.com.mm/front_end/image/services/Web-applecable-development-380x380.png"
                 alt="Paris"
                 style={{ width: "300px", height: "300px" }}
               />

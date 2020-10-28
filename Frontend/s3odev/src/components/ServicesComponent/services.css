@@ -1,0 +1,17 @@
+.servicescol:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
+.servicescol {
+  transition: all 0.4s ease-in-out;
+}
+
+.logo-small {
+  color: #09688d !important;
+  font-size: 50px !important;
+}
+
+.logo-small:hover {
+  color: #0294ce !important;
+  font-size: 50px !important;
+}

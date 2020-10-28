@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./services.css";
+
 export default function Services() {
   return (
     <div>
@@ -8,17 +10,17 @@ export default function Services() {
         <h4>What we offer</h4>
         <br />
         <div class="row slideanim">
-          <div class="col-sm-4">
+          <div class="col-sm-4 servicescol">
             <span class="glyphicon glyphicon-off logo-small"></span>
             <h4>POWER</h4>
             <p>Lorem ipsum dolor sit amet..</p>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4 servicescol">
             <span class="glyphicon glyphicon-heart logo-small"></span>
             <h4>QUALITY</h4>
             <p>Lorem ipsum dolor sit amet..</p>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4 servicescol">
             <span class="glyphicon glyphicon-lock logo-small"></span>
             <h4>JOB DONE</h4>
             <p>Lorem ipsum dolor sit amet..</p>
@@ -27,17 +29,17 @@ export default function Services() {
         <br />
         <br />
         <div class="row slideanim">
-          <div class="col-sm-4">
+          <div class="col-sm-4 servicescol">
             <span class="glyphicon glyphicon-leaf logo-small"></span>
             <h4>TRUST</h4>
             <p>Lorem ipsum dolor sit amet..</p>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4 servicescol">
             <span class="glyphicon glyphicon-certificate logo-small"></span>
             <h4>CERTIFIED</h4>
             <p>Lorem ipsum dolor sit amet..</p>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4 servicescol">
             <span class="glyphicon glyphicon-wrench logo-small"></span>
             <h4 style={{ color: "#303030" }}>HARD WORK</h4>
             <p>Lorem ipsum dolor sit amet..</p>
