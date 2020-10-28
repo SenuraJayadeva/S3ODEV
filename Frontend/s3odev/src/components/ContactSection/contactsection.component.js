@@ -17,7 +17,7 @@ export default function Contactsection() {
             </p>
             <p>
               <span class="glyphicon glyphicon-envelope"></span>{" "}
-              s3odevlopers@gmail.com
+              s3odevelopers@gmail.com
             </p>
           </div>
           <div class="col-sm-7 slideanim">
@@ -53,7 +53,7 @@ export default function Contactsection() {
             <br />
             <div class="row">
               <div class="col-sm-12 form-group">
-                <button class="btn btn-default pull-right" type="submit">
+                <button class="btn btn-primary pull-right" type="submit" stye={{width:"10px"}}>
                   Send
                 </button>
               </div>
