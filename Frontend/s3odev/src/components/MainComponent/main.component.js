@@ -40,6 +40,9 @@ export default function MainComponent() {
                 <a href="#portfolio">PRODUCTS</a>
               </li>
               <li>
+                <a href="#ourteam">TEAM</a>
+              </li>
+              <li>
                 <a href="#contact">CONTACT</a>
               </li>
             </ul>

@@ -8,9 +8,9 @@ export default function Footer() {
           <span class="glyphicon glyphicon-chevron-up"></span>
         </a>
         <p>
-          Bootstrap Theme Made By{" "}
+          All rights reserved{" "}
           <a href="https://www.w3schools.com" title="Visit w3schools">
-            www.w3schools.com
+            www.s3odevelopers.com
           </a>
         </p>
       </footer>

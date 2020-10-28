@@ -9,7 +9,7 @@ export default function Ourproducts() {
         <h4>What we have created</h4>
         <div class="row text-center slideanim">
           <div class="col-sm-4" style={{ padding: "10px" }}>
-            <div class="thumbnail">
+            <div class="thumbnail" style={{ padding: "10px" }}>
               <img
                 src="https://jumbotron-production-f.squarecdn.com/assets/2194c707b541ede89e40.jpg"
                 alt="Paris"
@@ -23,7 +23,7 @@ export default function Ourproducts() {
             </div>
           </div>
           <div class="col-sm-4" style={{ padding: "10px" }}>
-            <div class="thumbnail">
+            <div class="thumbnail" style={{ padding: "10px" }}>
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTYRtQntpxPaeTfcSub4WMc0DCjie0PsI_5uQ&usqp=CAU"
                 alt="New York"
@@ -37,7 +37,7 @@ export default function Ourproducts() {
             </div>
           </div>
           <div class="col-sm-4" style={{ padding: "10px" }}>
-            <div class="thumbnail">
+            <div class="thumbnail" style={{ padding: "10px" }}>
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSwsue0jANw5e2fK3Es7NWokV_AiIB_KaomnA&usqp=CAU"
                 alt="San Francisco"
