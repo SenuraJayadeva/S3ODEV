@@ -7,7 +7,14 @@ export default function AboutSection() {
     <div>
       <div id="about" class="container-fluid">
         <div class="row">
-          <div class="col-sm-8">
+          <div
+            class="col-sm-8"
+            data-aos="fade-right"
+            data-aos-delay="50"
+            data-aos-duration="2000"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
             <h2>About Company</h2>
             <br />
             <h4>
@@ -17,7 +24,6 @@ export default function AboutSection() {
 
             
             </h4>
-
             <p>
             We custom-tailor solutions to improve the productivity and efficiency of your business so that you can give both your clients and employees a better experience.
 
@@ -27,7 +33,14 @@ We can help you build an online presence for your business with a website, or ev
             <br />
             <button class="btn btn-primary btn-lg">Get in Touch</button>
           </div>
-          <div class="col-sm-4">
+          <div
+            class="col-sm-4"
+            data-aos="fade-left"
+            data-aos-delay="50"
+            data-aos-duration="2000"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
             <img src={Banner1} style={{ width: "110%", marginTop: "15%" }} />
           </div>
         </div>

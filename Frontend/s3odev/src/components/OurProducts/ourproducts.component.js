@@ -10,6 +10,9 @@ export default function Ourproducts() {
         <div class="row text-center slideanim">
           <div
             class="col-sm-4"
+            data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="1000"
             style={{ padding: "10px", borderRadius: "20px" }}
           >
             <div class="thumbnail" style={{ padding: "10px" }}>
@@ -25,6 +28,9 @@ export default function Ourproducts() {
           </div>
           <div
             class="col-sm-4"
+            data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="1000"
             style={{ padding: "10px", borderRadius: "20px" }}
           >
             <div class="thumbnail" style={{ padding: "10px" }}>
@@ -40,6 +46,9 @@ export default function Ourproducts() {
           </div>
           <div
             class="col-sm-4"
+            data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="1000"
             style={{ padding: "10px", borderRadius: "20px" }}
           >
             <div class="thumbnail" style={{ padding: "10px" }}>
