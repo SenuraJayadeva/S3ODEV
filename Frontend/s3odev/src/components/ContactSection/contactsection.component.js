@@ -1,6 +1,34 @@
 import React from "react";
+import { makeStyles } from "@material-ui/core/styles";
+import TextField from "@material-ui/core/TextField";
+import Button from "@material-ui/core/Button";
+import emailjs from "emailjs-com";
+import { init } from "emailjs-com";
 
 export default function Contactsection() {
+  init("user_17nXRu6uDfNlxC194GMjM");
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_isciv2f",
+        "template_gwrz50y",
+        e.target,
+        "user_17nXRu6uDfNlxC194GMjM"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log("success");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  }
+
   return (
     <div
       style={{ marginTop: "5%" }}
@@ -27,47 +55,51 @@ export default function Contactsection() {
             </p>
           </div>
           <div class="col-sm-7 slideanim">
-            <div class="row">
-              <div class="col-sm-6 form-group">
-                <input
-                  class="form-control"
-                  id="name"
-                  name="name"
-                  placeholder="Name"
-                  type="text"
-                  required
-                />
-              </div>
-              <div class="col-sm-6 form-group">
-                <input
-                  class="form-control"
-                  id="email"
-                  name="email"
-                  placeholder="Email"
-                  type="email"
-                  required
-                />
-              </div>
-            </div>
-            <textarea
-              class="form-control"
-              id="comments"
-              name="comments"
-              placeholder="Comment"
-              rows="5"
-            ></textarea>
-            <br />
-            <div class="row">
-              <div class="col-sm-12 form-group">
-                <button
-                  class="btn btn-primary pull-right"
-                  type="submit"
-                  stye={{ width: "10px" }}
-                >
-                  Send
-                </button>
-              </div>
-            </div>
+            <form noValidate autoComplete="off" onSubmit={sendEmail}>
+              <TextField
+                id="outlined-basic"
+                label="Full Name"
+                size="medium"
+                variant="outlined"
+                nam="name"
+                style={{ width: "80%", fontSize: "15px" }}
+              />
+
+              <TextField
+                id="outlined-basic"
+                label="Email"
+                size="medium"
+                name="email"
+                variant="outlined"
+                style={{ width: "80%", margin: "15px", fontSize: "15px" }}
+              />
+
+              <TextField
+                id="outlined-multiline-static"
+                label="Message"
+                multiline
+                size="medium"
+                name="message"
+                rows={4}
+                variant="outlined"
+                style={{ width: "80%", fontSize: "15px" }}
+              />
+
+              <Button
+                variant="outlined"
+                type="submit"
+                value="send message"
+                color="primary"
+                style={{
+                  margin: "15px",
+                  width: "80%",
+                  height: "10%",
+                  fontSize: "15px",
+                }}
+              >
+                Send
+              </Button>
+            </form>
           </div>
         </div>
       </div>
